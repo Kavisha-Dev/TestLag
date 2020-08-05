@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		75A3B26024DAD44E00009BFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B25F24DAD44E00009BFC /* AppDelegate.swift */; };
 		75A3B26224DAD44E00009BFC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B26124DAD44E00009BFC /* SceneDelegate.swift */; };
-		75A3B26424DAD44E00009BFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B26324DAD44E00009BFC /* ViewController.swift */; };
 		75A3B26724DAD44E00009BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A3B26524DAD44E00009BFC /* Main.storyboard */; };
 		75A3B26924DAD45300009BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A3B26824DAD45300009BFC /* Assets.xcassets */; };
 		75A3B26C24DAD45300009BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A3B26A24DAD45300009BFC /* LaunchScreen.storyboard */; };
+		75A3B27424DAD50800009BFC /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B27324DAD50800009BFC /* SettingsTableViewController.swift */; };
+		75A3B27624DAD52300009BFC /* HowToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B27524DAD52300009BFC /* HowToViewController.swift */; };
+		75A3B27924DAD67D00009BFC /* HowToCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B27724DAD67D00009BFC /* HowToCell.swift */; };
+		75A3B27A24DAD67D00009BFC /* HowToCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A3B27824DAD67D00009BFC /* HowToCell.xib */; };
+		75A3B27C24DAD91200009BFC /* PlusDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B27B24DAD91200009BFC /* PlusDataModel.swift */; };
+		75A3B27E24DADBBF00009BFC /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A3B27D24DADBBF00009BFC /* SampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75A3B25C24DAD44E00009BFC /* TestLag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A3B25F24DAD44E00009BFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75A3B26124DAD44E00009BFC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		75A3B26324DAD44E00009BFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75A3B26624DAD44E00009BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75A3B26824DAD45300009BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75A3B26B24DAD45300009BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75A3B26D24DAD45300009BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A3B27324DAD50800009BFC /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		75A3B27524DAD52300009BFC /* HowToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToViewController.swift; sourceTree = "<group>"; };
+		75A3B27724DAD67D00009BFC /* HowToCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCell.swift; sourceTree = "<group>"; };
+		75A3B27824DAD67D00009BFC /* HowToCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowToCell.xib; sourceTree = "<group>"; };
+		75A3B27B24DAD91200009BFC /* PlusDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusDataModel.swift; sourceTree = "<group>"; };
+		75A3B27D24DADBBF00009BFC /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		75A3B25E24DAD44E00009BFC /* TestLag */ = {
 			isa = PBXGroup;
 			children = (
+				75A3B27324DAD50800009BFC /* SettingsTableViewController.swift */,
+				75A3B27524DAD52300009BFC /* HowToViewController.swift */,
 				75A3B25F24DAD44E00009BFC /* AppDelegate.swift */,
 				75A3B26124DAD44E00009BFC /* SceneDelegate.swift */,
-				75A3B26324DAD44E00009BFC /* ViewController.swift */,
 				75A3B26524DAD44E00009BFC /* Main.storyboard */,
 				75A3B26824DAD45300009BFC /* Assets.xcassets */,
 				75A3B26A24DAD45300009BFC /* LaunchScreen.storyboard */,
 				75A3B26D24DAD45300009BFC /* Info.plist */,
+				75A3B27724DAD67D00009BFC /* HowToCell.swift */,
+				75A3B27824DAD67D00009BFC /* HowToCell.xib */,
+				75A3B27B24DAD91200009BFC /* PlusDataModel.swift */,
+				75A3B27D24DADBBF00009BFC /* SampleViewController.swift */,
 			);
 			path = TestLag;
 			sourceTree = "<group>";
@@ -128,6 +143,7 @@
 				75A3B26C24DAD45300009BFC /* LaunchScreen.storyboard in Resources */,
 				75A3B26924DAD45300009BFC /* Assets.xcassets in Resources */,
 				75A3B26724DAD44E00009BFC /* Main.storyboard in Resources */,
+				75A3B27A24DAD67D00009BFC /* HowToCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75A3B26424DAD44E00009BFC /* ViewController.swift in Sources */,
+				75A3B27424DAD50800009BFC /* SettingsTableViewController.swift in Sources */,
 				75A3B26024DAD44E00009BFC /* AppDelegate.swift in Sources */,
 				75A3B26224DAD44E00009BFC /* SceneDelegate.swift in Sources */,
+				75A3B27C24DAD91200009BFC /* PlusDataModel.swift in Sources */,
+				75A3B27924DAD67D00009BFC /* HowToCell.swift in Sources */,
+				75A3B27624DAD52300009BFC /* HowToViewController.swift in Sources */,
+				75A3B27E24DADBBF00009BFC /* SampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soka.TestLag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.soka.TestLag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
