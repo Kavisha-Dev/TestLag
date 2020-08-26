@@ -17,6 +17,7 @@ class HowToViewController: UIViewController, UITableViewDelegate, UITableViewDat
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // This is a test
         self.view.backgroundColor = UIColor.backgroundColor
         
         self.tableView.dataSource = self
