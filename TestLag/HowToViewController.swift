@@ -10,6 +10,7 @@ import UIKit
 
 class HowToViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    // This is a test
     @IBOutlet weak var tableView: UITableView!
     
     private var dataModel: [PlusDataModel] = [PlusDataModel]()
